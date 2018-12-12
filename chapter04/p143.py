@@ -16,7 +16,7 @@ try:
             pass
     data.close()
 except IOError:
-    print('The datafile is missing!!')
+    print('The datafile is missing!')
 try:
     with open("C:\Git_project\HFPython\chapter04\man_data.txt", 'w') as man_data:
         print(man, file = man_data)
