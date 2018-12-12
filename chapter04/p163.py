@@ -8,6 +8,4 @@ def print_lol(the_list, ident = False, level = 0, fh = sys.stdout):
             if ident:
                 for tab in range(level):
                     print("\t", end = '', file = fh)
-                print(each_item, file = fh)
-            else:
-                print(each_item, file = fh)
+            print(each_item, file = fh)
